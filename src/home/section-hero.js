@@ -13,4 +13,5 @@ export const heroAnimation = () => {
 gsap.from(".section_home_hero", {
   opacity: 0,
   duration: 2,
+  color: "red",
 });
