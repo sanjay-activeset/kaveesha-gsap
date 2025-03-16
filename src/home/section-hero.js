@@ -7,7 +7,7 @@ export const heroAnimation = () => {
   });
 };
 
-gsap.from(".home_hero_bottom_title", {
+gsap.from(".section_home_hero", {
   // This is the same as the above code
   opacity: 0,
   duration: 1,
