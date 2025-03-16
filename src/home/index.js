@@ -3,10 +3,11 @@
  * For Home page js
  * Add or delete these files as per needed.
  */
-import { heroAnimation } from "./section-hero";
+import { sectionGallery } from "./section-hero";
 console.log("Hello from Home folder");
 
 /* Run the hero animation after DOM Loaded Content */
 document.addEventListener("DOMContentLoaded", () => {
   heroAnimation();
 });
+import { sectionGallery } from "./section-gallery";
