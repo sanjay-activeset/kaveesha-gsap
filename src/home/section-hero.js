@@ -11,7 +11,6 @@ export const heroAnimation = () => {
 };
 
 gsap.from(".section_home_hero", {
-  // This is the same as the above code
   opacity: 0,
   duration: 1,
 });
